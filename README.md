@@ -55,6 +55,10 @@ Top trending videos
   
   <img width="1348" height="593" alt="image" src="https://github.com/user-attachments/assets/fd2872aa-9d47-4d62-aba6-24060e7f1a08" />
 
+  ## Quick sight Analysis:
+  <img width="558" height="364" alt="image" src="https://github.com/user-attachments/assets/375f2329-171d-4d45-b85d-f83683b6083a" />
+
+
 
 
 
