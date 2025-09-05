@@ -1,4 +1,4 @@
-# To copy all JSON Reference data to same location:
+# To copy all  JSON Reference data to same location:
 aws s3 cp . s3://bigdata-on-youtube-raw-euwest1-14317621-dev/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
 
 # To copy all data files to its own location, following Hive-style patterns:
