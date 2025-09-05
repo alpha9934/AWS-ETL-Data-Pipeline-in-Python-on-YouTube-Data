@@ -7,7 +7,8 @@ Given that YouTube is one of the world's most-visited platforms, with over 2.6 b
 <H3>AWS Python ETL Pipeline Project- Dataset Understanding:</H3>
 This ETL project leverages a Kaggle dataset containing daily trending YouTube video data from various locations. The raw data for each region includes key metrics like video titles, views, likes, and comments. A separate JSON file provides a category_id for each region. The goal is to build a pipeline that can effectively extract, transform, and load this structured and semi-structured data for analysis.
 
-   <img width="625" height="398" alt="image" src="https://github.com/user-attachments/assets/0686402f-6902-4785-94f9-ad3c58d7b66d" />
+   ![Architecture](https://github.com/user-attachments/assets/a32dd468-8fef-40e5-9d7a-5a1e31d36438)
+
 
 
 
@@ -30,5 +31,36 @@ This project showcases a complete Big Data solution on AWS:
 * **Querying & Analytics:** Data is made available for analysis using **SparkSQL** and **Amazon Athena** for running standard SQL queries.
 * **Business Intelligence:** **Amazon QuickSight** is used to create interactive BI dashboards, providing valuable insights from the processed data.
 * **Monitoring:** The pipeline includes a monitoring solution using **Amazon SNS** for automated alerts and notifications.
+
+
+## Our dataset from YouTube
+Top trending videos
+
+* What is “Trending”? 
+
+* YouTube uses factors, including users interactions
+    e.g. number of views, shares, comments and likes.
+
+* Not the most-viewed videos overall for the calendar year
+
+* Source: Kaggle. Data collected using YouTube API
+
+  <img width="752" height="735" alt="image" src="https://github.com/user-attachments/assets/13bf821e-6438-42d5-9552-173cc5b87a26" />
+
+## Data Cleaning:
+
+<img width="1360" height="732" alt="image" src="https://github.com/user-attachments/assets/6bd7fc8d-69eb-4acd-ad0e-a0b60b43cf43" />
+
+* Semi-structured data to Structured pipeline
+  
+  <img width="1348" height="593" alt="image" src="https://github.com/user-attachments/assets/fd2872aa-9d47-4d62-aba6-24060e7f1a08" />
+
+
+
+
+
+
+
+
 
 
